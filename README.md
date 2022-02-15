@@ -11,7 +11,9 @@ includes a bar chart of the average spendings of households on various things su
 
 # Unfinished Features
 Loading Screen
+
 Lottie Loading animation
+
 CSS styles
 
 # Technologies Used
