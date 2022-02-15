@@ -151,6 +151,8 @@ async function getData(){
         ]
         },
         options: {
+            responsive : false,
+
             tooltips: {
                 mode : 'index'
             },
