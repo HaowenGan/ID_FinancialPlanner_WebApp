@@ -4,3 +4,4 @@ This is a financial planner website, it is meant to help people who want to star
 # Design Process
 
 # Features
+shows a bar chart of the average spendings of households on various things such as housing, food, education fees,etc from 1993 to 2018
