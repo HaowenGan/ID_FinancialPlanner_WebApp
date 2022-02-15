@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+  }
+
+  .myChart{
+      justify-content: center;
+      
+  }
+
+  .animation-center{  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .bg-welcome{
+    background-color: #0074EE;
+  }
+
