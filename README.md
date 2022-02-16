@@ -10,11 +10,11 @@ This web app starts off with a welcome page and going past that there will be a 
 includes a bar chart of the average spendings of households on various things such as housing, food, education fees,etc from 1993 to 2018.
 
 # Unfinished Features
-Loading Screen
-
-Lottie Loading animation
+Lottie Loading Screen and Animation (done)
 
 CSS styles
+
+Start Page
 
 # Technologies Used
 API
