@@ -23,3 +23,8 @@ API
 # Testing
 
 
+# Credits
+
+Media Used
+[Background Image](https://wallpaperaccess.com/finance)
+
