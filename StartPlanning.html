@@ -11,37 +11,70 @@
 
 </head>
 
-<body>
-    <h1>Start Planning For Your Future</h1>
-    <h2>Monthly Planner</h2>
-    <p>Monthly Salary</p>
-    <form>
-        <label for = "salary">Salary per Month : </label>
-        <input type="text" id = "salary" salary = "salary">
-    </form>
+<body class = "planstart">
+    <div class = "navbar">
+        <h1 class = "main">Start Planning For Your Future</h1>
+    </div>
     <br>
-    <p>Utility Bills</p>
+    <br>
+    <div class="head-contain">
+        <h2>Monthly Planner</h2>
+    </div>
+    <br>
+    <div class = chart-contain>
+        <canvas id="myChart" width="700" height="700"></canvas>
+    </div>
+    
+ <div class = "container">
+    <div class = "Salary">
+        <p>Monthly Salary</p>
+        <form>
+            <label for = "salary">Salary per Month : </label>
+            <input type="text" id = "salary" salary = "salary">
+        </form>
+    </div>
+    
+    <hr>
+
+    <div class = utility>
+        <p>Utility Bills</p>
         <form>
             <label for = "utility">Utility Cost per Month : </label>
             <input type="text" id = "utility" utility = "utility">
         </form>
-    <br>
-    <p>Transport Fees</p>
+    </div>
+    
+    <hr>
+    
+    <div class = "Transport">
+        <p>Transport Fees</p>
     <form>
         <label for = "Transport">Transport Fees per Month : </label>
         <input type="text" id = "Transport" Transport = "Transport">
     </form>
-    <br>
-    <p>Food Expenses</p>
+    </div>
+    
+    <hr>
+
+    <div class = "Food">
+        <p>Food Expenses</p>
     <form>
         <label for = "Food">Food Expense per Month : </label>
         <input type="text" id = "Food" Food = "Food">
         <br>
-        <br>
-        <input type="submit">
+        <hr>
+        
     </form>
+    </div>
+
+    <div class = btm-contain>
+        <input type="submit" class="submit-button">
+    </div>
+ </div>
+    
     <br>
-    <canvas id="myChart" width="800" height="800"></canvas>
+    
+    
 
     <script src="script.js"></script>
 </body>
