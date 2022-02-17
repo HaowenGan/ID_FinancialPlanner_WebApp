@@ -7,17 +7,27 @@ This web application is meant for those that are interested and need help in pla
 This web app starts off with a welcome page and going past that there will be a form for you to fill out and once that is filled out there will be an estimate of how much of each category you should be saving.
 
 # Features
-includes a bar chart of the average spendings of households on various things such as housing, food, education fees,etc from 1993 to 2018.
+-Users can type in a year that they want to check from a range of years (1993,1998,2003,2008,2013,2018) to check for the expediture of households on that year.
+
+-Budgeting Sheet to allow users to plan their finances using the 50 20 10 rule.
+
+-Lottie implemented loading screen
+
+-simple contact form for queries
+
+-information and tips on financial planning
 
 # Unfinished Features
-- Lottie Loading Screen and Animation (done)
+- Lottie Loading Screen and Animation (Completed)
 
-- CSS styles
+- CSS styles (Completed)
 
-- Start Page
+- Start Page (Completed)
+
+- Footers (Completed)
 
 # Technologies Used
-- API
+- [API](https://www.tablebuilder.singstat.gov.sg/publicfacing/rest/timeseries/tabledata/17057)
 
 - [Chart.js](https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js)
 
@@ -25,7 +35,9 @@ includes a bar chart of the average spendings of households on various things su
 
 
 # Testing
+- Inputting of invalid values for the year to display charts
 
+- checking of calculations of values for amount saved on budget sheet
 
 # Credits
 
