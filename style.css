@@ -11,6 +11,10 @@ body {
     overflow: scroll;
   }
 
+  .bg-welcome{
+      background-color: "#0074EE" ;
+  }
+
   .chart-contain{
     display: flex;
     position: relative;
