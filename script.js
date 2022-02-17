@@ -95,9 +95,29 @@ function readMore6() {
   }
 }
 
+//-----------------------------------Sticky Nav Bar-------------------------------------------------
 
-
-
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  
+  window.onscroll = function() {myFunctio2()};
+  
+  var navbar = document.getElementById("myTopnav");
+  var sticky = navbar.offsetTop;
+  
+  function myFunctio2() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
 
 
 //------------------------------------Budget Sheet--------------------------------------------------
@@ -343,5 +363,3 @@ function drawBarChart() {
         document.getElementById("noChart").innerHTML = "There is no data for this year. Please try another year."
     }
 }
-
-
