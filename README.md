@@ -13,9 +13,9 @@ This web app starts off with a welcome page and going past that there will be a 
 
 -Lottie implemented loading screen
 
--simple contact form for queries
+-Simple contact form for queries
 
--information and tips on financial planning
+-Information and tips on financial planning
 
 # Unfinished Features
 - Lottie Loading Screen and Animation (Completed)
@@ -42,7 +42,7 @@ This web app starts off with a welcome page and going past that there will be a 
 # Credits
 
 ## Media Used
-- [Background Image](https://wallpaperaccess.com/finance)
+- [Background Image of Start Page](https://wallpaperaccess.com/finance)
 
 
 
