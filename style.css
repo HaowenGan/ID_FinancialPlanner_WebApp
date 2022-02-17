@@ -4,7 +4,6 @@
 
 body {
     font-size: 14px;
-    overflow: scroll;
   }
 
   .planstart{
@@ -13,6 +12,7 @@ body {
 
   .bg-welcome{
       background-color: #0074EE ;
+      overflow: hidden;
   }
 
   .chart-contain{
