@@ -10,18 +10,18 @@ This web app starts off with a welcome page and going past that there will be a 
 includes a bar chart of the average spendings of households on various things such as housing, food, education fees,etc from 1993 to 2018.
 
 # Unfinished Features
-Lottie Loading Screen and Animation (done)
+- Lottie Loading Screen and Animation (done)
 
-CSS styles
+- CSS styles
 
-Start Page
+- Start Page
 
 # Technologies Used
-API
+- API
 
-[Chart.js](https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js)
+- [Chart.js](https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js)
 
-[Chart.js fns time adapter](https://github.com/chartjs/chartjs-adapter-date-fns)
+- [Chart.js fns time adapter](https://github.com/chartjs/chartjs-adapter-date-fns)
 
 
 # Testing
@@ -29,9 +29,8 @@ API
 
 # Credits
 
-Media Used
-
-[Background Image](https://wallpaperaccess.com/finance)
+## Media Used
+- [Background Image](https://wallpaperaccess.com/finance)
 
 
 
