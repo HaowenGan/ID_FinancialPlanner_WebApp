@@ -43,8 +43,10 @@ This web app starts off with a welcome page and going past that there will be a 
 
 # Credits
 
- ## Media Used
-- [Background Image of Start Page](https://wallpaperaccess.com/finance)
+ **Media Used**
+  - [Background Image of Start Page](https://wallpaperaccess.com/finance)
+
+
 
 # Github Link
 - [Link to Project](https://haowengan.github.io/ID_FinancialPlanner_WebApp)
