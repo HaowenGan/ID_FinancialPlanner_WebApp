@@ -29,7 +29,7 @@ This web app starts off with a welcome page and going past that there will be a 
 # Technologies Used
 - [API](https://www.tablebuilder.singstat.gov.sg/publicfacing/rest/timeseries/tabledata/17057)
 
-- [Chart.js](https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js)
+- [Chart.js](https://www.jsdelivr.com/package/npm/chart.js)
 
 - [Chart.js fns time adapter](https://github.com/chartjs/chartjs-adapter-date-fns)
 
