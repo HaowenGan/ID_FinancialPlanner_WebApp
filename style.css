@@ -4,11 +4,11 @@
 
 body {
     font-size: 14px;
-    overflow:visible;
+    overflow: scroll;
   }
 
   .planstart{
-    overflow: visible;
+    overflow: scroll;
   }
   
 
