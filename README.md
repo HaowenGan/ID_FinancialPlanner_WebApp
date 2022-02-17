@@ -9,7 +9,7 @@ This web app starts off with a welcome page and going past that there will be a 
 # Features
 -Users can type in a year that they want to check from a range of years (1993,1998,2003,2008,2013,2018) to check for the expediture of households on that year.
 
--Budgeting Sheet to allow users to plan their finances using the 50 20 10 rule.
+-Budgeting Sheet to allow users to plan their finances using the 50 20 10 rule and them inputting their various expenses.
 
 -Lottie implemented loading screen
 
@@ -39,10 +39,15 @@ This web app starts off with a welcome page and going past that there will be a 
 
 - checking of calculations of values for amount saved on budget sheet
 
+- checking of buttons to make sure that they redirect to the correct pages.
+
 # Credits
 
-## Media Used
+ ## Media Used
 - [Background Image of Start Page](https://wallpaperaccess.com/finance)
+
+# Github Link
+- [Link to Project](https://haowengan.github.io/ID_FinancialPlanner_WebApp)
 
 
 
