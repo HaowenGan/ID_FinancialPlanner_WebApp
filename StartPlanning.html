@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,75 +7,131 @@
     <title>Start Plannning</title>
     <script src = "https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-
 </head>
 
-<body class = "planstart">
-    <div class = "navbar">
-        <h1 class = "main">Start Planning For Your Future</h1>
-    </div>
-    <br>
-    <br>
-    <div class="head-contain">
-        <h2>Monthly Planner</h2>
-    </div>
-    <br>
-    <div class = chart-contain>
-        <canvas id="myChart" width="700" height="700"></canvas>
-    </div>
-    
- <div class = "container">
-    <div class = "Salary">
-        <p>Monthly Salary</p>
-        <form>
-            <label for = "salary">Salary per Month : </label>
-            <input type="text" id = "salary" salary = "salary">
-        </form>
-    </div>
-    
-    <hr>
+<body>
+    <h1>What is the 50/30/20 rule?</h1>
+    <p>The 50/30/20 rule is a simple budgeting strategy that allows you to monitor your money effectively, easily, and sustainably. The basic rule of thumb is to divide your monthly after-tax income into three spending categories: 50% for needs(housing, utilities, transportation and other recurring payments), 30% for wants(dining out, clothing, entertainment) and 20% for savings or paying off debt.</p>
+    <p>You can put your money to work more efficiently if you maintain your costs balanced throughout these major spending categories on a regular basis. As there is only three major categories to track, yuo can save yourself the time and stress of digging into the details every time you spend.</p>
 
-    <div class = utility>
-        <p>Utility Bills</p>
-        <form>
-            <label for = "utility">Utility Cost per Month : </label>
-            <input type="text" id = "utility" utility = "utility">
-        </form>
-    </div>
-    
-    <hr>
-    
-    <div class = "Transport">
-        <p>Transport Fees</p>
-    <form>
-        <label for = "Transport">Transport Fees per Month : </label>
-        <input type="text" id = "Transport" Transport = "Transport">
-    </form>
-    </div>
-    
-    <hr>
+    <h1>Get started with the 50/30/20 budget plan now:</h1>
+    <div class="sheet">
 
-    <div class = "Food">
-        <p>Food Expenses</p>
-    <form>
-        <label for = "Food">Food Expense per Month : </label>
-        <input type="text" id = "Food" Food = "Food">
-        <br>
-        <hr>
-        
-    </form>
     </div>
 
-    <div class = btm-contain>
-        <input type="submit" class="submit-button">
-    </div>
- </div>
-    
-    <br>
-    
-    
+    <h2>Incomes (Monthly)</h2>
+    <div onchange="incomesTotal()">
+        <label>Monthly Salary</label>
+        <div>
+            <input class="input" id="income1" type="text" placeholder="$" min="0">
+        </div>
+        <label>Other Incomes</label>
+        <div>
+            <input class="input" id="income2" type="text" placeholder="$" min="0">
+        </div>
 
+        <p>Total income : <input class="input" id="incomes" type="number" placeholder="$" readonly></p>
+    </div>
+
+
+    <h2>Needs (Monthly)</h2>
+    <div onchange="needsTotal()">
+        <label>Rent</label>
+        <div>
+            <input class="input" id="need1" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Phone Bill</label>
+        <div>
+            <input class="input" id="need2" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Internet Bill</label>
+        <div>
+            <input class="input" id="need3" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Property Tax Bill</label>
+        <div>
+            <input class="input" id="need4" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Water Bill</label>
+        <div>
+            <input class="input" id="need5" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Electricity and Gas Bill</label>
+        <div>
+            <input class="input" id="need6" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Transportation</label>
+        <div>
+            <input class="input" id="need7" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Basic Groceries</label>
+        <div>
+            <input class="input" id="need8" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Others</label>
+        <div>
+            <input class="input" id="need9" type="number" placeholder="$" min="0" max="10000">
+        </div>
+
+        <p>Total for needs : <input class="input" id="needs" type="number" placeholder="$" readonly></p>
+    </div>
+
+
+    <h2>Wants (Monthly)</h2>
+    <div onchange="wantsTotal()">
+        <label>Dining Out</label>
+        <div>
+            <input class="input" id="want1" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Snacks or Drinks</label>
+        <div>
+            <input class="input" id="want2" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Shopping</label>
+        <div>
+            <input class="input" id="want3" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Holidays</label>
+        <div>
+            <input class="input" id="want4" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Gym or Club Memberships</label>
+        <div>
+            <input class="input" id="want5" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Entertainment Subscriptions</label>
+        <div>
+            <input class="input" id="want6" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Any tickets</label>
+        <div>
+            <input class="input" id="want7" type="number" placeholder="$" min="0" max="10000">
+        </div>
+        <label>Others</label>
+        <div>
+            <input class="input" id="want8" type="number" placeholder="$" min="0" max="10000">
+        </div>
+
+        <p>Total for wants : <input class="input" id="wants" type="number" placeholder="$" readonly></p>
+    </div>
+
+    <h2>Savings (Monthly)</h2>
+    <div>
+        <h3>The rest of the incomes will be for savings and paying off debts.</h3>
+        <p>Money left : <input class="input" id="left"  type="number" placeholder="$" readonly></p>
+        <button type="button" onclick="moneyLeft()">Calculate</button>
+    </div>
+
+    <p id="alert"></p>
+    <div id="piechart"></div>
+    
     <script src="script.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+    </script>
+
 </body>
 
 </html>
