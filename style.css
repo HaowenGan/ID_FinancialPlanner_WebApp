@@ -191,9 +191,10 @@ body {
     flex:100%;
 }
 .readMore {
-    background-color: yellow;
+    background-color:#95F985 ;
     width: 150px;
     height: 50px;
+    border-radius: 10px;
 }
 #more1 {display: none;}
 #more2 {display: none;}
