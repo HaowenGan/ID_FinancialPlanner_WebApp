@@ -19,6 +19,10 @@ Start Page
 # Technologies Used
 API
 
+[Chart.js](https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js)
+
+[Chart.js fns time adapter](https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js)
+
 
 # Testing
 
@@ -26,5 +30,8 @@ API
 # Credits
 
 Media Used
+
 [Background Image](https://wallpaperaccess.com/finance)
+
+
 
