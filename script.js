@@ -182,13 +182,8 @@ function moneyLeft() {
 
     if (Number(savings) < 0 || Number(needs + wants > incomes)) {
     document.getElementById("alert").innerHTML = "No more money from income for this month! You are using extra money!";
+  }
 }
-}
-
-
-
-
-
 
 //-----------------------------------------API------------------------------------------------------
 
@@ -228,8 +223,6 @@ async function getData(){
     console.log(percentData);
     return yearLabel, nameData;
 }
-
-
 
 function drawBarChart() {
     document.getElementById("noChart").innerHTML = '<p id="noChart"></p>';
