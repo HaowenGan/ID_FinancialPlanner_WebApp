@@ -29,20 +29,20 @@
 
               <label for="fname">First Name</label>
               <br>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
               <hr>
               <label for="lname">Last Name</label>
               <br>
 
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
               <hr>
 
               <label for="email">Email</label>
               <br>
-              <input type="text" id="email" name="emailadd" placeholder="Your email..">
+              <input type="email" id="email" name="emailadd" placeholder="Your email.." required>
 
               <label for="subject" class = "subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
           
               <input type="submit" value="Submit">
               <script>
@@ -55,10 +55,20 @@
             </form>
           </div>
           </div>
-            <script src="script.js"></script>
-            <footer class = manualfoot>
-                <button type="button" onclick="location.href = 'startPlanning.html'" class = "backtoplan">Back to Planner</button>
-            </footer>
-    </body>
 
-    
+          <footer>
+            <p>Made By Gan Haowen and Khoo Jun Jie</p>
+            <a href="https://www.linkedin.com/in/khoo-jun-jie/">
+                <img id="logo" src="image/linkedinlogo.png" alt="Jun Jie's LinkedIn"></a>
+            <a href="https://s10222747.wixsite.com/khoojunjie">
+                <img id="logo" src="image/wixlogo.png" alt="Jun Jie's Wix"></a>
+                
+            <a href="https://www.linkedin.com/in/gan-haowen/">
+                <img id="logo" src="image/linkedinlogo.png" alt="Haowen's LinkedIn"></a>
+            <a href="https://ghw222.wixsite.com/website">
+                <img id="logo" src="image/wixlogo.png" alt="Haowen's Wix"></a>
+        </footer>
+
+            <script src="script.js"></script>
+    </body>
+</html>
