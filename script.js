@@ -173,7 +173,8 @@ function moneyLeft() {
     ['Wants', Number(wants)],
     ['Savings', Number(savings)]
     ]);
-    var options = {'title':'Budgeting Chart', 'width':550, 'height':400};
+    var options = {'title':'Budgeting Chart', 'width': '40%', 'height': 400
+      };
 
     var chart = new google.visualization.PieChart(document.getElementById('piechart'));
     chart.draw(data, options);
