@@ -60,11 +60,11 @@ This web app starts off with a welcome page and going past that there will be a 
 
 # Individual Contributions
   **Haowen**
-  - Made the index page
-  - Made the loading page with lottie animation
-  - helped with getting the data from the API
-  - fixed some errors with code from checker
-  - wrote Style css for some of the elements
+    - Made the index page
+    - Made the loading page with lottie animation
+    - helped with getting the data from the API
+    - fixed some errors with code from checker
+    - wrote Style css for some of the elements
 
  **Jun Jie**
 
