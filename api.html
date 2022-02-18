@@ -6,40 +6,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Api Data</title>
-    <script src = "https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <title>Start</title>
 </head>
 
-<body>
-    <div class="topnav" id="myTopnav">
-        <a href="home.html">Home</a>
-        <a href="reasons.html">Reasons</a>
-        <a href="tips.html">Tips</a>
-        <a href="startPlanning.html">Budget Sheet</a>
-        <a href="api.html" class="active">Data Graph</a>
-        <a href="contact.html">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-    </div>
+    <body class = "background-img">
 
-      <div class="division">
-        <h1>This page shows the Distribution Of Monthly Household Expenditure By Type Of Goods And Services, Quinquennial (1 in 5 years). </h1>
-        <h3>The available years to show are : 1993, 1998, 2003, 2008, 2013, 2018</h3>
-        <h3>Year to search :</h3>
-        <input type="number" id="searchYear" placeholder="YYYY" min="1993" max="2018">
-        <button type="button" onclick="drawBarChart()">Search</button>
-        <p id="noChart"></p>
-        <div id="chart-contain">
-            <canvas id="myChart" width="1000" height="700"></canvas>
-        </div>
-    
-      </div>
-    <footer></footer>
+            <div class = "start-contain">
+                <h1 class = "start-center">
+                    Welcome to your Financial Planner
+                </h1>
+            </div>
 
-    <script src="script.js"></script>
+            <div class ="button-center">  
+                <button type="button" onclick="location.href = 'welcome.html'" class = "start-button">Click Me to Start!</button>
+            </div>
 
-</body>
+    </body> 
 
 </html>
