@@ -181,6 +181,7 @@ body {
     padding: 15px;
     background-color: #333;
     color: white;
+    margin-top: 40px;
 
   }
 
@@ -235,20 +236,13 @@ h1 {
     width: 200px;
     height: auto;
 }
-#logo {
-    height: 50px;
-    width: auto;
-    margin: 20px;
-}
+
 p {
     font-family: 'Anton', sans-serif;
-font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;
     font-size: large;
 }
-footer {
-    margin-top: 40px;
-    padding: 100px;
-}
+
 
 /*-------------------------------------Sticky nav bar----------------------------------------------*/
 
