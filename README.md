@@ -51,5 +51,8 @@ This web app starts off with a welcome page and going past that there will be a 
 # Github Link
 - [Link to Project](https://haowengan.github.io/ID_FinancialPlanner_WebApp)
 
+#Pitch
+- [Pitch Video](https://drive.google.com/file/d/1_ujxemfMxU6S-60KQFdv9rzAaNjmOErw/view?usp=sharing)
+
 
 
