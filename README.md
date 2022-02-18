@@ -45,14 +45,32 @@ This web app starts off with a welcome page and going past that there will be a 
 
  **Media Used**
   - [Background Image of Start Page](https://wallpaperaccess.com/finance)
+  - [LinkedIn Logo](https://www.flaticon.com/free-icon/linkedin_174857)
+  - [Wix Logo](https://www.facebook.com/wix/photos/a.487548310428/10157360484775429/)
+
+  **Content**
+   - https://www.nerdwallet.com/article/investing/what-is-a-financial-plan
+   - https://www.moneyowl.com.sg/retirement-planning/
+   - https://www.franklintempletonindia.com/investor/investor-education/video/importance-of-financial-plannng-io04og31
 
 
+# Acknowlegements
+ - Received Inspiration from https://www.nerdwallet.com/article/finance/budget-worksheet
+
+
+# Individual Contributions
+ - **Haowen**
+  - Made the index page
+  - Made the loading page with lottie animation
+  - helped with getting the data from the API
+  - fixed some errors with code from checker
+  - wrote Style css for some of the elements
+
+- **Jun Jie**
 
 # Github Link
 - [Link to Project](https://haowengan.github.io/ID_FinancialPlanner_WebApp)
 
 # Pitch
 - [Pitch Video](https://drive.google.com/file/d/1_ujxemfMxU6S-60KQFdv9rzAaNjmOErw/view?usp=sharing)
-
-
 
