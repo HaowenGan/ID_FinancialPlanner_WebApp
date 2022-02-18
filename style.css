@@ -2,9 +2,9 @@
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
-.background-img{
+/*.background-img{
     background-image: url("images/background.jpg");
-}
+}*/
 
 body {
     font-size: 14px;
@@ -190,8 +190,13 @@ body {
       width: 100%;
   }
 
+h1 {
+    font-size: 40px;
+    color:brown
+}
+
 .input {
-    width:30%;
+    width: 30%;
     height:50px;
     font-size: large;
     margin: auto;
@@ -218,15 +223,32 @@ body {
     margin: auto;
     margin-top: 10%;
 }
+.piechart {
+    margin:auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
 #budgetSheet {
-    background-color:chartreuse;
+    padding: 20px;
+    background-color:darkorange;
     width: 200px;
     height: auto;
 }
-
-
-
-
+#logo {
+    height: 50px;
+    width: auto;
+    margin: 20px;
+}
+p {
+    font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+    font-size: large;
+}
+footer {
+    margin-top: 40px;
+    padding: 100px;
+}
 
 /*-------------------------------------Sticky nav bar----------------------------------------------*/
 
