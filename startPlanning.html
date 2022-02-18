@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,11 +38,11 @@
     <div onchange="incomesTotal()">
         <label>Monthly Salary</label>
         <div>
-            <input class="input" id="income1" type="text" value placeholder="$" min="0">
+            <input class="input" id="income1" type="text" placeholder="$" data-min="0">
         </div>
         <label>Other Incomes</label>
         <div>
-            <input class="input" id="income2" type="text" placeholder="$" min="0">
+            <input class="input" id="income2" type="text" placeholder="$" data-min="0">
         </div>
 
         <p>Total income : <input class="input" id="incomes" type="number" placeholder="$" readonly></p>
@@ -139,20 +138,20 @@
     </div>
 
     <p id="alert"></p>
-    <div id="piechart"></div>
+    <div class="division" id="piechart"></div>
     </div>
 
     <footer>
         <p>Made By Gan Haowen and Khoo Jun Jie</p>
         <a href="https://www.linkedin.com/in/khoo-jun-jie/">
-            <img id="logo" src="image/linkedinlogo.png" alt="Jun Jie's LinkedIn"></a>
+            <img id="logo" src="images/linkedinlogo.png" alt="Jun Jie's LinkedIn"></a>
         <a href="https://s10222747.wixsite.com/khoojunjie">
-            <img id="logo" src="image/wixlogo.png" alt="Jun Jie's Wix"></a>
+            <img id="logo" src="images/wixlogo.png" alt="Jun Jie's Wix"></a>
             
         <a href="https://www.linkedin.com/in/gan-haowen/">
-            <img id="logo" src="image/linkedinlogo.png" alt="Haowen's LinkedIn"></a>
+            <img id="logo" src="images/linkedinlogo.png" alt="Haowen's LinkedIn"></a>
         <a href="https://ghw222.wixsite.com/website">
-            <img id="logo" src="image/wixlogo.png" alt="Haowen's Wix"></a>
+            <img id="logo" src="images/wixlogo.png" alt="Haowen's Wix"></a>
     </footer>
 
 
@@ -164,7 +163,5 @@
     </script>
 
 </body>
-
-    
 
 </html>
