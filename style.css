@@ -2,6 +2,10 @@
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
+.background-img{
+    background-image: url("images/background.jpg");
+}
+
 body {
     font-size: 14px;
     background-color: lightblue;
