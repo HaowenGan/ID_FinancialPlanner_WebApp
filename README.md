@@ -62,11 +62,26 @@ This web app starts off with a welcome page and going past that there will be a 
   **Haowen**
    - Made the index page
    - Made the loading page with lottie animation
+   - Made the contact page
+   - Update ReadMe
    - helped with getting the data from the API
    - fixed some errors with code from checker
    - wrote Style css for some of the elements
-
+   - help to find API to use
+   - Edit and combine the pitch video
+ 
  **Jun Jie**
+  - Find API to use
+  - Made the home page
+  - Made the reasons page
+  - Made the tips page
+  - Made the budget sheet page
+  - Made the data graph page
+  - javascript codes for read more/read less buttons
+  - javascript codes for budget sheet page
+  - Help with javascript codes for API data
+  - some css codes
+  - footer and find logo to use
 
 # Github Link
 - [Link to Project](https://haowengan.github.io/ID_FinancialPlanner_WebApp)
